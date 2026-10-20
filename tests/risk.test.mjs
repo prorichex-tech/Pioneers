@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { calculateRisk } from '../server/risk.mjs';
+const f=(status)=>({status});
+test('Сценарий A: R2 + R3 = 35, жёлтая зона',()=>{const r=calculateRisk({R2:f('confirmed'),R3:f('confirmed')});assert.equal(r.score,35);assert.equal(r.zone,'yellow')});
+test('Сценарий B: R1 + R2 + R3 = 70, красная зона',()=>{const r=calculateRisk({R1:f('confirmed'),R2:f('confirmed'),R3:f('confirmed')});assert.equal(r.score,70);assert.equal(r.zone,'red')});
+test('Сценарий C: подтверждено только R3 = 10, зелёная зона',()=>{const r=calculateRisk({R1:f('rejected'),R2:f('pending'),R3:f('confirmed')});assert.equal(r.score,10);assert.equal(r.zone,'green')});
+test('Неподтверждённые и отклонённые факторы не дают баллов',()=>{const r=calculateRisk({R1:f('pending'),R2:f('rejected'),R3:f('confirmed')});assert.equal(r.score,10)});
+test('60+ без одновременных R1 и R2 не красная зона',()=>{const r=calculateRisk({R2:f('confirmed'),R3:f('confirmed'),R4:f('confirmed'),R5:f('confirmed'),R6:f('confirmed')});assert.equal(r.score,65);assert.equal(r.zone,'yellow')});
+test('Баллы ограничены 100',()=>{const r=calculateRisk({R1:f('confirmed'),R2:f('confirmed'),R3:f('confirmed'),R4:f('confirmed'),R5:f('confirmed'),R6:f('confirmed')});assert.equal(r.score,100);assert.equal(r.zone,'red')});
+test('Неизвестный статус не добавляет баллы',()=>{const r=calculateRisk({R1:f('unknown'),R2:f('confirmed')});assert.equal(r.score,25);assert.equal(r.zone,'yellow')});

@@ -1,0 +1,558 @@
+{
+  "projects": [
+    {
+      "id": "P001",
+      "name": "ЖК Самал",
+      "developer": "ТОО Demo Development",
+      "bin": "630000000001",
+      "address": "Усть-Каменогорск, demo-адрес 1",
+      "stage": "Строительство",
+      "completion": "2027-09",
+      "readiness": null,
+      "legalBasis": "Нет данных",
+      "legalStatus": "unknown",
+      "sources": [
+        {
+          "name": "Демонстрационный набор",
+          "url": "",
+          "capturedAt": "2026-10-20T10:00:00.000Z"
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "P002",
+      "name": "ЖК Алтай Residence",
+      "developer": "ТОО Altai Demo",
+      "bin": "630000000002",
+      "address": "Усть-Каменогорск, demo-адрес 2",
+      "stage": "Котлован",
+      "completion": "2028-03",
+      "readiness": null,
+      "legalBasis": "Нет данных",
+      "legalStatus": "unknown",
+      "sources": [
+        {
+          "name": "Демонстрационный набор",
+          "url": "",
+          "capturedAt": "2026-10-20T10:00:00.000Z"
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "P003",
+      "name": "ЖК Иртыш Park",
+      "developer": "ТОО Irtysh Demo",
+      "bin": "630000000003",
+      "address": "Усть-Каменогорск, demo-адрес 3",
+      "stage": "Монолитные работы",
+      "completion": "2027-12",
+      "readiness": null,
+      "legalBasis": "Разрешение (демо-сведения)",
+      "legalStatus": "requires_review",
+      "sources": [
+        {
+          "name": "Демонстрационный набор",
+          "url": "",
+          "capturedAt": "2026-10-20T10:00:00.000Z"
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "P004",
+      "name": "ЖК Восток",
+      "developer": "ТОО Vostok Demo",
+      "bin": "630000000004",
+      "address": "Усть-Каменогорск, demo-адрес 4",
+      "stage": "Отделка",
+      "completion": "2026-12",
+      "readiness": null,
+      "legalBasis": "Гарантия (демо-сведения)",
+      "legalStatus": "requires_review",
+      "sources": [
+        {
+          "name": "Демонстрационный набор",
+          "url": "",
+          "capturedAt": "2026-10-20T10:00:00.000Z"
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "P005",
+      "name": "ЖК Көктем",
+      "developer": "ТОО Koktem Demo",
+      "bin": "630000000005",
+      "address": "Усть-Каменогорск, demo-адрес 5",
+      "stage": "Строительство",
+      "completion": "2028-06",
+      "readiness": null,
+      "legalBasis": "Нет данных",
+      "legalStatus": "unknown",
+      "sources": [
+        {
+          "name": "Демонстрационный набор",
+          "url": "",
+          "capturedAt": "2026-10-20T10:00:00.000Z"
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "P006",
+      "name": "ЖК Орман",
+      "developer": "ТОО Orman Demo",
+      "bin": "630000000006",
+      "address": "Усть-Каменогорск, demo-адрес 6",
+      "stage": "Подготовка площадки",
+      "completion": "2028-09",
+      "readiness": null,
+      "legalBasis": "Нет данных",
+      "legalStatus": "unknown",
+      "sources": [
+        {
+          "name": "Демонстрационный набор",
+          "url": "",
+          "capturedAt": "2026-10-20T10:00:00.000Z"
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "P007",
+      "name": "ЖК Нұрлы",
+      "developer": "ТОО Nurly Demo",
+      "bin": "630000000007",
+      "address": "Усть-Каменогорск, demo-адрес 7",
+      "stage": "Монтаж конструкций",
+      "completion": "2027-06",
+      "readiness": null,
+      "legalBasis": "Нет данных",
+      "legalStatus": "unknown",
+      "sources": [
+        {
+          "name": "Демонстрационный набор",
+          "url": "",
+          "capturedAt": "2026-10-20T10:00:00.000Z"
+        }
+      ],
+      "demo": true
+    },
+    {
+      "id": "P008",
+      "name": "ЖК Береке",
+      "developer": "ТОО Bereke Demo",
+      "bin": "630000000008",
+      "address": "Усть-Каменогорск, demo-адрес 8",
+      "stage": "Ввод в эксплуатацию",
+      "completion": "2026-11",
+      "readiness": null,
+      "legalBasis": "Нет данных",
+      "legalStatus": "unknown",
+      "sources": [
+        {
+          "name": "Демонстрационный набор",
+          "url": "",
+          "capturedAt": "2026-10-20T10:00:00.000Z"
+        }
+      ],
+      "demo": true
+    }
+  ],
+  "posts": [
+    {
+      "id": "A001",
+      "source": "Instagram",
+      "author": null,
+      "date": "2026-10-02",
+      "url": "",
+      "text": "Продажа квартир в ЖК Самал на этапе строительства. Планируемая сдача в 2027 году.",
+      "projectId": "P001",
+      "status": "analyzed",
+      "analysis": {
+        "projectMention": "ЖК Самал",
+        "constructionHousingAd": true,
+        "paymentOffer": false,
+        "hypotheses": [
+          {
+            "factor": "R2",
+            "finding": "Указан этап строительства и планируемый срок сдачи, что является признаком рекламы строящегося жилья; сведения о разрешительных документах отсутствуют.",
+            "quote": "на этапе строительства"
+          },
+          {
+            "factor": "R3",
+            "finding": "Указан планируемый срок сдачи, но условия оплаты, рассрочки или иные финансовые условия не приведены.",
+            "quote": "Планируемая сдача в 2027 году"
+          }
+        ],
+        "needsVerification": [
+          "Наличие разрешения на строительство и правоустанавливающих документов на объект",
+          "Соответствие рекламы требованиям законодательства Казахстана о рекламе строящегося жилья",
+          "Достоверность заявленного срока сдачи в 2027 году"
+        ],
+        "limitations": [
+          "Публикация короткая, содержит только общие сведения",
+          "Отсутствуют данные о застройщике, разрешительных документах и условиях сделки",
+          "Анализ основан только на тексте публикации"
+        ],
+        "analyzedAt": "2026-10-20T18:55:02.623Z",
+        "provider": "deepseek"
+      },
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "A002",
+      "source": "Публичная страница",
+      "author": null,
+      "date": "2026-10-03",
+      "url": "",
+      "text": "Бронируйте квартиру в ЖК Самал сегодня: депозит 300 000 тенге для фиксации цены.",
+      "projectId": "P001",
+      "status": "new",
+      "analysis": null,
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "A003",
+      "source": "Сайт застройщика",
+      "author": null,
+      "date": "2026-10-04",
+      "url": "",
+      "text": "Старт продаж в ЖК Алтай Residence. Первоначальный взнос от 20%, подробности в личных сообщениях.",
+      "projectId": "P002",
+      "status": "new",
+      "analysis": null,
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "A004",
+      "source": "Instagram",
+      "author": null,
+      "date": "2026-10-05",
+      "url": "",
+      "text": "ЖК Иртыш Park: квартиры на этапе монолитных работ, оставьте заявку на консультацию.",
+      "projectId": "P003",
+      "status": "new",
+      "analysis": null,
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "A005",
+      "source": "Публичная страница",
+      "author": null,
+      "date": "2026-10-06",
+      "url": "",
+      "text": "Специальное предложение: платная бронь квартиры в ЖК Восток, сумма брони 150 000 ₸.",
+      "projectId": "P004",
+      "status": "new",
+      "analysis": null,
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "A006",
+      "source": "Сайт застройщика",
+      "author": null,
+      "date": "2026-10-07",
+      "url": "",
+      "text": "Квартиры в ЖК Көктем. Продажи открыты, доступна рассрочка от застройщика.",
+      "projectId": "P005",
+      "status": "new",
+      "analysis": null,
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "A007",
+      "source": "Instagram",
+      "author": null,
+      "date": "2026-10-08",
+      "url": "",
+      "text": "ЖК Орман: раннее бронирование квартир. Для резерва требуется депозит.",
+      "projectId": "P006",
+      "status": "new",
+      "analysis": null,
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "A008",
+      "source": "Публичная страница",
+      "author": null,
+      "date": "2026-10-09",
+      "url": "",
+      "text": "В ЖК Нұрлы продолжается строительство. Запишитесь на просмотр планировок.",
+      "projectId": "P007",
+      "status": "new",
+      "analysis": null,
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "A009",
+      "source": "Сайт застройщика",
+      "author": null,
+      "date": "2026-10-10",
+      "url": "",
+      "text": "ЖК Береке, финальные квартиры. Объект готовится к вводу, уточняйте детали.",
+      "projectId": "P008",
+      "status": "new",
+      "analysis": null,
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "A010",
+      "source": "Instagram",
+      "author": null,
+      "date": "2026-10-11",
+      "url": "",
+      "text": "Акция на квартиры в ЖК Алтай Residence: внесите первоначальный взнос до конца недели.",
+      "projectId": "P002",
+      "status": "new",
+      "analysis": null,
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "A011",
+      "source": "Публичная страница",
+      "author": null,
+      "date": "2026-10-12",
+      "url": "",
+      "text": "ЖК Самал: онлайн-презентация проекта и выбор планировки. Условия по запросу.",
+      "projectId": "P001",
+      "status": "new",
+      "analysis": null,
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "A012",
+      "source": "Сайт застройщика",
+      "author": null,
+      "date": "2026-10-13",
+      "url": "",
+      "text": "Квартиры в ЖК Иртыш Park: оставьте заявку, чтобы получить коммерческое предложение.",
+      "projectId": "P003",
+      "status": "new",
+      "analysis": null,
+      "capturedAt": "2026-10-20T10:00:00.000Z",
+      "demo": true
+    }
+  ],
+  "signals": [
+    {
+      "id": "S001",
+      "projectId": "P001",
+      "postId": "A002",
+      "description": "Предложение платного депозита при продаже жилья на этапе строительства.",
+      "factors": {
+        "R1": {
+          "status": "pending",
+          "evidence": "",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R2": {
+          "status": "confirmed",
+          "evidence": "депозит 300 000 тенге для фиксации цены",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R3": {
+          "status": "confirmed",
+          "evidence": "Продажа квартир в ЖК Самал на этапе строительства",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R4": {
+          "status": "pending",
+          "evidence": "",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R5": {
+          "status": "pending",
+          "evidence": "",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R6": {
+          "status": "pending",
+          "evidence": "",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        }
+      },
+      "status": "pending",
+      "createdAt": "2026-10-20T10:00:00.000Z",
+      "history": [
+        {
+          "at": "2026-10-20T10:00:00.000Z",
+          "actor": "Система",
+          "action": "Создан демонстрационный сигнал"
+        }
+      ],
+      "demo": true,
+      "score": 35,
+      "zone": "yellow",
+      "confirmed": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "id": "S002",
+      "projectId": "P002",
+      "postId": "A010",
+      "description": "Демонстрационный контрастный сценарий с подтверждёнными R1, R2 и R3.",
+      "factors": {
+        "R1": {
+          "status": "confirmed",
+          "evidence": "Сценарий B: в демонстрации отсутствие основания подтверждено проверочными данными",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R2": {
+          "status": "confirmed",
+          "evidence": "внесите первоначальный взнос до конца недели",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R3": {
+          "status": "confirmed",
+          "evidence": "Старт продаж в ЖК Алтай Residence",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R4": {
+          "status": "pending",
+          "evidence": "",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R5": {
+          "status": "pending",
+          "evidence": "",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R6": {
+          "status": "pending",
+          "evidence": "",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        }
+      },
+      "status": "confirmed",
+      "createdAt": "2026-10-20T10:00:00.000Z",
+      "history": [
+        {
+          "at": "2026-10-20T10:00:00.000Z",
+          "actor": "Демо-аналитик",
+          "action": "Подтверждён демонстрационный сценарий"
+        }
+      ],
+      "demo": true,
+      "score": 70,
+      "zone": "red",
+      "confirmed": [
+        "R1",
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "id": "S003",
+      "projectId": "P003",
+      "postId": "A004",
+      "description": "Демонстрационный сценарий: подтверждена активная реклама, законное основание не признано отсутствующим.",
+      "factors": {
+        "R1": {
+          "status": "rejected",
+          "evidence": "",
+          "reason": "Демо-сценарий: законное основание подтверждено",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R2": {
+          "status": "pending",
+          "evidence": "",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R3": {
+          "status": "confirmed",
+          "evidence": "ЖК Иртыш Park: квартиры на этапе монолитных работ",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R4": {
+          "status": "pending",
+          "evidence": "",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R5": {
+          "status": "pending",
+          "evidence": "",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        },
+        "R6": {
+          "status": "pending",
+          "evidence": "",
+          "reason": "",
+          "updatedAt": "2026-10-20T10:00:00.000Z",
+          "updatedBy": "Демо-аналитик"
+        }
+      },
+      "status": "review",
+      "createdAt": "2026-10-20T10:00:00.000Z",
+      "history": [
+        {
+          "at": "2026-10-20T10:00:00.000Z",
+          "actor": "Система",
+          "action": "Создан демонстрационный сигнал"
+        }
+      ],
+      "demo": true,
+      "score": 10,
+      "zone": "green",
+      "confirmed": [
+        "R3"
+      ]
+    }
+  ],
+  "events": [],
+  "meta": {
+    "seededAt": "2026-10-20T10:00:00.000Z",
+    "version": 1
+  },
+  "users": [],
+  "sessions": [],
+  "audit": []
+}
